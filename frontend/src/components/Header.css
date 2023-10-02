@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: inherit;
+    font-family: cursive;
+}
+
+header a.logo {
+    font-weight: bold;
+    font-size: 1.9rem;
+    font-family: 'Borel', cursive;
+    
+}
+
+header nav {
+    display: flex;
+    gap: 24px;
+}
